@@ -1,0 +1,245 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.lbackground{
+	width: 100%;
+	height: 705px;
+  background-color:#FFFFFF;
+	background-image:url(../images/lbg_body.jpg);
+	background-repeat:repeat;
+	background-position:center 0;
+}
+.lphone img{
+	border-bottom: 3px solid #952b01;
+}
+.lcontent{
+	margin:0 auto;
+	width: 1000px;
+	height: 705px;
+	background: #f0f0f0;
+
+}
+.lnew{
+	width: 1000px;
+	height: 53px;
+	margin:0 auto;
+	border-bottom: 1px solid #b0b0b0
+}
+
+.lnew span{
+	line-height:53px;
+	float: right;
+	margin-right: 35px;
+	color: #952b01;
+	font-size: 12px;
+}
+.lnew span:nth-child(1){
+	float: left;
+/*	margin-top: 20px;*/
+	margin-left: 50px;
+	font-size: 18px;
+	color: #952b01;
+}
+.lnew span a{
+	color: #0b0b0b;
+}
+.lnew span a:hover{
+	color:#ff0000;
+	text-decoration: underline;
+}
+.lpart{
+	float: left;
+	margin-top: 17px;
+	margin-left: 52px;
+	height:505px;
+	width: 580px;
+}
+.ltext1{
+	width: 580px;
+	height: 488px;
+}
+.lpart .ltext1 dl dt{	
+	margin-top:0px;
+	height: 34px;
+	border-radius: 2px;
+	background: #952b01;
+	font-size: 12px;
+	color:#fff;
+	border-bottom: 1px solid #422215;
+}
+.lpart .ltext1 dl dt span{
+	margin-top: 8px;
+	display: block;
+	float: left;
+	text-align: center;
+}
+.lpart .ltext1 dl dt span:nth-child(1){
+	width: 100px;
+}
+.lpart .ltext1 dl dt span:nth-child(2){
+	width: 420px;
+	text-align: left;
+}
+.lpart .ltext1 dl dd{
+	padding:5px;
+	display: block;
+	height: 20px;
+	border-bottom: #b0b0b0 dashed 1px;
+	font-size: 12px;
+	color:#0b0b0b;
+}
+.lpart .ltext1 dl dd span{
+	text-align: center;
+	line-height: 6px;
+}
+.lpart .ltext1 dl dd span{
+	margin-top: 8px;
+	display: block;
+	float: left;
+	text-align: center;
+}
+.lpart .ltext1 dl dd span:nth-child(1){
+	width: 90px;
+}
+.lpart .ltext1 dl dd span:nth-child(2){
+	width: 410px;
+	text-align: left;
+}
+.lpart .ltext1 dl dd a{
+	color:#0b0b0b;
+}
+.lpart .ltext1 dl dd a:hover{
+	color:#ff0000;
+	text-decoration: underline;
+}
+.lpnum{
+	margin-top: 20px;
+	margin-left: 220px;
+}
+.lpnum a{
+	color:#0b0b0b;
+}
+.lpnum a:hover{
+	color: #ff0000;
+	text-decoration: underline;
+}
+.lrpart{
+	float:left;
+	margin-top: 17px;
+	margin-left: 52px;
+	height:505px;
+	width:300px;
+}
+.lrpart .lup{
+	float: left;
+	width: 283px;
+	height: 218px;
+	border-radius: 8px;
+	border:#b0b0b0 solid 1px;
+	background: #fef7ed;
+	/*background:url(../images/kuang_1_1.gif);
+	background-size:272px 253px;
+	background-repeat:no-repeat;*/
+}
+.lrpart .lup .T_num{
+	z-index: 10;
+}
+.lrpart .lup .llight{
+	float:left;
+	margin-left: 14px;
+	margin-top: 5px;
+}
+.lrpart .lup p{
+	width: 204px;
+	height: 70px;
+	float: left;
+	margin-left: 6px;
+	margin-top: 5px;
+	font-size:12px;
+	color: #952b01;
+}
+.lrpart .lup .T_num{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.lrpart .ldp{
+	float: left;
+	width: 283px;
+	height: 244px;
+	border-radius: 8px;
+	border:#b0b0b0 solid 1px;
+	background: #fafafa;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+.lrpart .ldp img{
+	float: left;
+	padding-left: 14px;
+	margin-top: 20px;
+}
+.lrpart .ldp p{
+	/*float: left;*/
+	padding-left: 50px;
+	margin-top: 25px;
+	color: #422215;
+	font-size:18px;
+}
+.lrpart .ldp ul{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.lrpart .ldp ul li{
+	list-style-image: url('../images/larrow.gif');
+	margin-left: 20px;
+}
+.lrpart .ldp ul li a{
+	font-size: 12px;
+	color:#0b0b0b;
+}
+.lrpart .ldp ul li a:hover{
+	color: #ff0000;
+	text-decoration: underline;
+}
+.lrpart .ldp .lmore{
+	font-size: 12px;
+	color:#952b01;
+	float: right;
+	margin-top:30px;
+	margin-right: 40px;
+}
+.lrpart .ldp .lmore:hover{
+	text-decoration: underline;
+}
+
+.ltitle{
+	height: 72px;
+	border-bottom: #b0b0b0 dashed 1px;
+}
+.ltitleb{
+/*	line-height: 50px;*/
+	font-size: 22px;
+	margin-left: 100px;
+	color:#444;
+}
+.ltitles{
+	line-height: 32px;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-left:125px;
+	color:#333;
+}
+.lword p{
+	width: 580px;
+	font-size: 12px;
+	padding:15px;
+	color: #555;
+	line-height: 18px;
+}
+.lllpic{
+	margin-top: 15px;
+	margin-left: 230px;
+}

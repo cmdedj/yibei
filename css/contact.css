@@ -1,0 +1,305 @@
+﻿*{
+	margin: 0;padding: 0;text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.clear{
+    clear: both;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+}
+body{
+	font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+	background: -webkit-linear-gradient(#050505, #8a8a8a); 
+	background: -o-linear-gradient(#050505, #8a8a8a); 
+    background: -moz-linear-gradient(#050505, #8a8a8a); 
+    background: linear-gradient(#050505, #8a8a8a);
+    font-size: 12px;
+    color: #454545;
+}
+
+.top_wrap{
+	width: 100%;
+	height: 80px;
+	background: url(../images/top_bg.gif);
+	border-bottom: 1px solid #5f5d5d;
+}
+.top_wrap .top{
+	width: 1000px;
+	height: 80px;
+	margin: 0 auto;
+}
+.top_wrap .top .top_logo{
+	float: left;
+	width: 173px;
+	height: 50px;
+	margin-top: 15px;
+	margin-left: 68px;
+}
+.top_wrap .top .top_mobile{
+	float: right;
+	width: 210px;
+	height: 30px;
+	margin-top: 20px;
+	background: url(../images/top_mobile.gif);
+	line-height: 25px;
+	text-indent: 3em;
+}
+.top_wrap .top .top_mobile p{
+	font-size: 12px;
+	color: #fff;
+}
+.top_nav{
+	width: 1000px;
+	height: 40px;
+	margin:0 auto;
+	background: url(../images/foot_bg.gif);
+}
+.top_nav ul li{
+	float: left;
+	width: 16%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.top_nav ul li img{
+	float: left;
+}
+.top_nav ul li a{
+	display: block;
+	height: 40px;
+	color: #fff;
+	font-size: 14px;
+}
+.top_nav ul li a:hover{
+	text-decoration: underline;
+	background: url(../images/nav_h.jpg) no-repeat top;
+}
+
+.foot_wrap{
+	width: 100%;
+	height: 40px;
+	background: url(../images/foot_bg.gif);
+}
+.foot_wrap .foot{
+	width: 1000px;
+	height: 40px;
+	margin:0 auto;
+}
+.foot_wrap .foot ul li{
+	float: left;
+	line-height: 40px;
+}
+.foot_wrap .foot ul li a{
+	color: #6d6d6d;
+	padding: 0 5px;
+	font-size: 12px;
+}
+.foot_wrap .foot ul li span{
+	color: #6d6d6d;
+	font-size: 11px;
+}
+.foot_wrap .foot .foot_logo{
+	float: right;
+	width: 105px;
+	height: 33px;
+	background: url(../images/foot_logo.gif);
+}
+.foot_wrap .foot .foot_txt{
+	float: right;
+	width: 250px;
+	height: 40px;
+	color: #6d6d6d;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+/* 内容 */
+.content{
+	width: 100%;
+	height: 893px;
+}
+.main_wrap{
+	width: 1000px;
+	height: 660px;
+	margin:0 auto;
+	background: #f0f0f0;
+}
+.main_wrap .main_top{
+	width: 1000px;
+	height: 104px;
+	margin-bottom: 10px;
+}
+.main_wrap .main_top img{
+	float: left;
+}
+.main_wrap .main_con .main_con_nav{
+	width: 1000px;
+	height: 40px;
+	margin: 16px auto;
+	border-bottom: 1px solid #ccc;
+}
+.main_wrap .main_con .main_con_nav p{
+	float: left;
+	margin-left: 45px;
+	font-size: 22px;
+	font-weight: lighter;
+	color: #3a0b00;
+}
+.main_wrap .main_con .main_con_nav ul{
+	float: right;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+}
+.main_wrap .main_con .main_con_nav ul li{
+	float: left;
+	font-size: 12px;
+}
+.main_wrap .main_con .main_con_nav ul li:first-child{
+	color: #bb3c03;
+}
+.main_wrap .main_con .main_con_nav ul li a{
+	color: #454545;
+}
+.main_wrap .main_con .main_con_nav ul li a:hover{
+	text-decoration: underline;
+	color: #ff0000;
+}
+.main_wrap .main_con .main_con_left{
+	width: 580px;
+	float: left;
+	margin:0 37px 0 50px;
+}
+.main_wrap .main_con .main_con_left .main_con_info1{
+	width: 580px;
+	height: 116px;
+	border-bottom: 1px solid #cacaca;
+}
+.main_wrap .main_con .main_con_left .main_con_info1 .info1_l{
+	width: 98px;
+	height: 116px;
+	float: left;
+}
+.main_wrap .main_con .main_con_left .main_con_info1 .info1_c{
+	width: 300px;
+	float: left;
+	margin: 0 15px;
+}
+.main_wrap .main_con .main_con_left .main_con_info1 .info1_c p:first-child{
+	font-size: 18px;
+	color: #3a0b00;
+	margin-bottom: 8px;
+}
+.main_wrap .main_con .main_con_left .main_con_info1 .info1_c p span{
+	font-size: 12px;
+	color: #454545;
+}
+.main_wrap .main_con .main_con_left .main_con_info1 .info1_r{
+	width: 143px;
+	height: 38px;
+	float: left;
+	margin-top: 25px;
+}
+.main_wrap .main_con .main_con_left a{
+	color: #3a0b00;
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 8px;
+}
+.main_wrap .main_con .main_con_left .main_con_info2{
+	width: 580px;
+	height: 80px;
+	border-bottom: 1px dashed #ccc;
+}
+.main_wrap .main_con .main_con_left .main_con_info2 img{
+	float: left;
+	margin-right: 50px;
+}
+.main_wrap .main_con .main_con_right{
+	width: 283px; 
+	float: left;
+}
+.main_wrap .main_con .main_con_right .right_top{
+	width: 263px;
+	height: 198px;
+	background: #fef7ed;
+	border: 10px solid #faf8eb;
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.main_wrap .main_con .main_con_right .right_top img:first-child{
+	position: absolute;
+	top:10px;
+	left: 10px;
+}
+.main_wrap .main_con .main_con_right .right_top img:last-child{
+	position: absolute;
+	bottom:15px;
+	left: 50px;
+}
+.main_wrap .main_con .main_con_right .right_top p{
+	width: 192px;
+	position: absolute;
+	left: 54px;
+	top:10px;
+	color: #792100;
+}
+.main_wrap .main_con .main_con_right .right_bottom{
+	width: 283px;
+	height: 200px;
+	background: #fafafa;
+	box-shadow: 0px 0px 2px #a5a4a4;
+	border-radius: 5px 5px 5px 5px;
+	position: relative;
+	padding: 18px 0;
+}
+.main_wrap .main_con .main_con_right .right_bottom img{
+	position: absolute;
+	left: 15px;
+	top: 20px;
+}
+.main_wrap .main_con .main_con_right .right_bottom h2{
+	height: 32px;
+	line-height: 32px;
+	color: #3a0b00;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 50px;
+}
+.main_wrap .main_con .main_con_right .right_bottom ul{
+	width: 235px;
+	margin:20px auto;
+}
+.main_wrap .main_con .main_con_right .right_bottom ul li{
+	height: 24px;
+	line-height: 24px;
+	background: url(../images/list.jpg) no-repeat left center;
+	padding-left: 8px;
+}
+.main_wrap .main_con .main_con_right .right_bottom ul li a{
+	color: #454545;
+}
+.main_wrap .main_con .main_con_right .right_bottom ul li a:hover{
+	text-decoration: underline;
+	color: #ff0000;
+}
+.main_wrap .main_con .main_con_right .right_bottom .more{
+	float: right;
+	color: #b04f01;
+	margin-right: 30px;
+}
+.main_wrap .main_con .main_con_right .right_bottom .more:hover{
+	text-decoration: underline;
+}

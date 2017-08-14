@@ -1,0 +1,278 @@
+*{
+	margin:0;padding:0;text-decoration: none;
+}
+body{
+	margin:auto;
+	background: #414141;
+}
+
+.box{
+	width:1000px;
+	height:1000px;
+	background: #f0f0f0;
+	margin:0 auto;
+}
+.box .lyb{
+	width:1000px;
+	height:800px;
+	margin:0 auto;
+}
+.box .lyb .top-images{
+	height:103px;
+}
+.box .lyb #top{
+	height:100px;
+	float:left;
+}
+.box .lyb #top-line{
+	float:left;
+	margin-top: 0px;
+	height: 3px;
+	width:1000px;
+}
+.box .lyb .instruct{
+	width:1000px;
+	height:50px;
+	float:left;
+}
+.box .lyb .instruct .h1 {
+	width:100px;
+	margin-left:46px;
+	margin-top: 10px;
+	height:40px;
+	font-size: 20px;
+	color:#964534;
+	float:left;
+}
+.box .lyb .instruct .top-right{
+	width:300px;
+	float: right;
+	height:50px;
+}
+.box .lyb .instruct .top-right .h2 {
+	width:300px;
+	
+	margin-top: 10px;
+	height:50px;
+	font-size: 20px;
+	color:#964534;
+	float:left;
+}
+.box .lyb .instruct .top-right .h2 .h3 {
+	width:180px;
+	height:50px;
+	
+	font-size: 20px;
+	color:#000;
+	float:right;
+}
+.box .lyb .left-mid{
+	width:622px;
+	height:591px;
+	margin-left: 46px;
+	float:left;
+}
+.box .lyb .left-mid .ebay-des{
+	width:622px;
+	height:100px; 
+}
+.box .lyb .left-mid .ebay-des .h1{
+	width:622px;
+	
+	margin-top: 10px;
+	height:40px;
+	font-size: 20px;
+	font-weight: 900;
+	color:#964534;
+
+}
+.box .lyb .left-mid .ebay-des .h2{
+	width:622px;
+	margin-right:46px;
+	height:20px;
+	font-size: 15px;
+	color:#000;
+}
+.box .lyb .left-mid .form-group form{
+	width:500px;
+	margin-top: 10px;
+	margin-left:20px;
+	height:400px;
+	
+}
+.box .lyb .left-mid .form-group form .option{
+	float:left;
+	width:600px;
+	height:50px;
+}
+.box .lyb .left-mid .form-group form .option .h1{
+	width:100px;
+	float:left;
+	height:40px;
+	font-size: 20px;
+	
+	color:#000;
+}
+
+.box .lyb .left-mid .form-group form .option .h2{
+	width:200px;
+	height:50px;
+	float:left;
+}
+
+
+.box .lyb .left-mid .form-group form .option .tijiao{
+	width:122px;
+	height:37px;
+	margin:0 auto;
+	background-image: url('../images/tijiao.png')
+
+}
+.box .lyb .left-mid .form-group form .option .tijiao .tj{
+	 width: 122px;
+    height: 37px;
+    background: transparent;
+}
+
+.box .lyb .liuyan {
+	width:622px;
+	height:300px;
+	margin-left:46px;
+	margin-top:20px;
+
+}
+.box .lyb .liuyan .yigeliuyan {
+	width:622px;
+	float:left;
+
+}
+.box .lyb .liuyan .yigeliuyan .question {
+	width:622px;
+	height:50px;
+}
+.box .lyb .liuyan .yigeliuyan .question .nr{
+	width:550px;
+	float:right;
+	font-size:13px;
+	color:#979797;
+}
+
+.box .lyb .liuyan .yigeliuyan .answer {
+	width:622px;
+}
+.box .lyb .liuyan .yigeliuyan .answer .nr{
+	width:570px;
+	float:right;
+	background-color:#FFFFFF;
+	border-radius:5px;
+	border:1px solid #dbdbdb;
+}
+.box .lyb .liuyan .yigeliuyan .answer .nr .nr-in{
+	width:550px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom: 10px;
+	font-size:13px;
+	
+}
+.box .lyb .right-mid{
+	width:300px;
+	height:200px;
+	float:right;
+}
+
+.box .lyb .right-mid .ys{
+	width:280px;
+	height:220px;
+	background-color:#FEF7ED;
+	border:1px solid #e2dfd8;
+	border-radius:5px;
+	margin-top: 30px;
+}
+
+.box .lyb .right-mid .ys .ys-left{
+	margin-left:10px;
+	margin-top:10px;
+	width:50px;
+	height:220px;
+	float:left;
+}
+
+.box .lyb .right-mid .ys .ys-right{
+
+}
+
+.box .lyb .right-mid .ys .ys-right .up{
+	font-size:12px;
+	color:#792100;
+	width:200px;
+	float:right;
+	margin-right:20px;
+	margin-top:8px;
+}
+
+.box .lyb .right-mid .ys .ys-right .down{
+	font-size:12px;
+	color:#792100;
+	width:200px;
+	float:left;
+	margin-top:30px;
+}
+
+
+.box .lyb .right-mid .ys2{
+	margin-top: 30px;
+	width:280px;
+	height:220px;
+	background-color:#fafafa;
+	border:1px solid #e2dfd8;
+	border-radius:5px;
+}
+
+.box .lyb .right-mid .ys2 .up{
+	width:280px;
+	height:30px;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.box .lyb .right-mid .ys2 .up .ys-left{
+	float:left;
+	height:30px;
+	
+
+}
+.box .lyb .right-mid .ys2 .up .ys-right{
+	float:left;
+	margin-left:10px;
+	margin-top:2px;
+
+}
+
+.box .lyb .right-mid .ys2 .down{
+	width:280px;
+	height:150px;
+	float:left;
+}
+
+.box .lyb .right-mid .ys2 .down .left{
+	float:left;
+	width:5px;
+	margin-top:5px;
+	margin-left:10px;
+
+}
+.box .lyb .right-mid .ys2 .down .right{
+	float:left;
+	width:250px;
+	margin-top:10px;
+	margin-left:10px;
+	font-size:12px;
+
+}
+.box .lyb .right-mid .ys2 .xiangqing{
+	float:right;
+	margin-right:50px;
+	font-size:12px;
+}
